@@ -10,50 +10,67 @@
 # If the password for that user doesn't match then it should return "password is incorrect"
 
 
-users = []
+users = ["Alayna", "Lance", "Grayson", "Vivian"]
 
 def createUser(fullName, email, userName, password, phoneNumber) :
     # your code here
+    user = []
+    
+    for user in user :
+      user.append({
+        'user': 'user', 
+        'checked': False
+      })
+      
+    return user
 
 
 def authUser(userName, password) :
     # your code here
+    output = False
+    
+    for user in authUser :
+      if authUser == user['user'] and user['checked'] == False :
+        authUser['checked'] = True
+        output = True
+    
+    return output
 
 
 
 
 
 
-createUser(
-    "Alayna Floyd",
-    "alayna@yahoo.com",
-    "alaynaRocks",
-    "alaynaRocks234",
-    "(513) 472-9164"
+    createUser(
+        "Alayna Floyd",
+        "alayna@yahoo.com",
+        "alaynaRocks",
+        "alaynaRocks234",
+        "(513) 472-9164"
 )
 
-createUser(
-    "Lance Hudson",
-    "lhudson@gmail.com",
-    "lhudson",
-    "z48Fq$3qaM51@",
-    "(684) 391-1987"
+    createUser(
+      "Lance Hudson",
+     "lhudson@gmail.com",
+     "lhudson",
+     "z48Fq$3qaM51@",
+     "(684) 391-1987"
 )
 
-createUser(
-    "Grayson Dominguez",
-    "gdominguez@amazon.com",
-    "gdominguez",
-    "Passw0rd.",
-    "(123) 456-7890"
+    createUser(
+         "Grayson Dominguez",
+     "gdominguez@amazon.com",
+        "gdominguez",
+        "Passw0rd.",
+        "(123) 456-7890"
 )
 
-createUser(
-    "Vivian Johns",
-    "vivian23@apple.com",
-    "vjohns",
-    "1234567",
-    "(111) 111-1111"
+    createUser(
+        "Vivian Johns",
+        "vivian23@apple.com",
+        "vjohns",
+        "1234567",
+        "(111) 111-1111"
 )
 
 

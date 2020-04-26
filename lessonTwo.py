@@ -19,5 +19,8 @@
 i = 0
 while i <= 10 :
     # your code here
+    if i % 2 == 0 :
+        print i
 
     i += 1
+   
