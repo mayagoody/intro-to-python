@@ -32,12 +32,12 @@ myList = [ "mainsheet", "batton", "rudder", "foil", "block" ]
 
 # complete this function so that it return "I got it" if item is in myList
 # otherwise return "I have to get it"
-def findInList(item) :
+def findInList(finditem) :
     for item in myList :
-      if item == myList :
-          return "I got it"
-      else :
-          return "I have to get it"
+        if finditem == item :
+            return "I got it"
+
+    return "I have to get it"
 
 # assuming every element in 'numList' is a number, complete this function so that it
 # returns the total sum of the elements in the list
